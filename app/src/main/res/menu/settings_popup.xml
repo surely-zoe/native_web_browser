@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/one"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="History" />
+    <item
+        android:id="@+id/two"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="Bookmarks"/>
+    <item
+        android:id="@+id/three"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="Downloads"/>
+    <item
+        android:id="@+id/refresh"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/six"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="Find on page..."/>
+    <item
+        android:id="@+id/four"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/five"
+        android:fontFamily="@font/assistant_semibold"
+        android:title="Share"/>
+
+</menu>

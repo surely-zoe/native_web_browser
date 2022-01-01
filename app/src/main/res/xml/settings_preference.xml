@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    android:shouldDisableView="false"
+    android:singleLineTitle="true"
+    android:title="Browser Settings" >
+    <PreferenceCategory
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:title="Homepage Settings">
+        <EditTextPreference
+            android:defaultValue="https://www.google.com"
+            android:icon="@drawable/home"
+            android:key="homepage"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="Set Homepage"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:title="User Browsing Controls">
+        <Preference
+            android:id="@+id/clear_history"
+            android:icon="@drawable/history"
+            android:key="clear_history"
+            android:title="Clear History" />
+        <Preference
+            android:id="@+id/clear_bookmark"
+            android:icon="@drawable/bookf"
+            android:key="clear_bookmark"
+            android:title="Clear Bookmarks" />
+        <Preference
+            android:id="@+id/clear_down"
+            android:icon="@drawable/bookf"
+            android:key="clear_down"
+            android:title="Clear Downloads" />
+        <CheckBoxPreference
+            android:backgroundTint="#181515"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:key="incognito"
+            android:summary="Toggle recording of history"
+            android:title="Incognito Mode" />
+        <CheckBoxPreference
+            android:backgroundTint="#181515"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:key="desktop"
+            android:summary="Toggle desktop mode for browser"
+            android:title="Desktop Mode" />
+        <!--<CheckBoxPreference
+            android:backgroundTint="#181515"
+            android:icon="@android:drawable/ic_lock_lock"
+            android:key="dark_mode"
+            android:summary="View web browser in dark mode"
+            android:title="Dark Mode" /> -->
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

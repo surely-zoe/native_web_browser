@@ -1,0 +1,2 @@
+rootProject.name='NativeBrowser'
+include ':app'
